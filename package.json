@@ -1,0 +1,30 @@
+{
+    "name": "english-notes",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "KuzunohaChitose",
+        "email": "rluo9281@gmail.com"
+    },
+    "description": "English grammar",
+    "repository": {
+        "url": "https://github.com/KuzunohaChitose/english-notes"
+    },
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview",
+        "serve": "python ./app.py"
+    },
+    "devDependencies": {
+        "markdown-it-katex": "^2.0.3",
+        "markdown-it-footnote": "^3.0.3",
+        "vitepress": "1.0.0-rc.25"
+    },
+    "dependencies": {
+        "ant-design-vue": "^4.0.7",
+        "echarts": "^5.4.3",
+        "mermaid": "^10.6.1",
+        "vue": "^3.3.8"
+    }
+}
