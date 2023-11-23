@@ -1,4 +1,3 @@
-// @ts-ignore
 import mermaid from "mermaid";
 
 let isInitialized = false;

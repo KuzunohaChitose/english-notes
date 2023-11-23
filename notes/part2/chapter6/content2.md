@@ -1,10 +1,119 @@
+<script setup>
+const data1 = [
+    [
+        "amazing",
+        "令人惊叹的"
+    ],
+    [
+        "amazed",
+        "感到惊叹的"
+    ],
+    [
+        "boring",
+        "令人厌烦的"
+    ],
+    [
+        "bored",
+        "感到厌烦的"
+    ],
+    [
+        "confusing",
+        "令人困惑的"
+    ],
+    [
+        "confused",
+        "感到困惑的"
+    ],
+    [
+        "convincing",
+        "令人信服的"
+    ],
+    [
+        "convinced",
+        "感到信服的"
+    ],
+    [
+        "disappointing",
+        "令人失望的"
+    ],
+    [
+        "disappointed",
+        "感到失望的"
+    ],
+    [
+        "embarrassing",
+        "令人尴尬的"
+    ],
+    [
+        "embarrassed",
+        "感到尴尬的"
+    ],
+    [
+        "encouraging",
+        "令人鼓舞的"
+    ],
+    [
+        "encouraged",
+        "感到鼓舞的"
+    ],
+    [
+        "exciting",
+        "令人兴奋的"
+    ],
+    [
+        "excited",
+        "感到兴奋的"
+    ],
+    [
+        "frustrating",
+        "令人沮丧的"
+    ],
+    [
+        "frustrated",
+        "感到沮丧的"
+    ],
+    [
+        "interesting",
+        "有趣的"
+    ],
+    [
+        "interested",
+        "感兴趣的"
+    ],
+    [
+        "satisfying",
+        "令人满意的"
+    ],
+    [
+        "satisfied",
+        "感到满意的"
+    ],
+    [
+        "shocking",
+        "令人震惊的"
+    ],
+    [
+        "shocked",
+        "感到震惊的"
+    ],
+    [
+        "surprising",
+        "令人惊讶的"
+    ],
+    [
+        "surprised",
+        "感到惊讶的"
+    ]
+]
+</script>
+
 # 句法功能
 
 ## I. 主语
 
 > **不定式**和**动名词**的用法类似于名词，可以作为主语。不定式倾向于表示一次性的具体动作、动名词倾向于表示经常性的动作。为了避免头重脚轻，非谓语动词作主语时经常使用形式主语`it`从而将真主语后置。
 
-### 1.1 To do的常见句型
+### 1.1 To do 的常见句型
 
 1. `It + be + adj./n. + ([for/of] sb.) +  to do sth.`
 
@@ -46,7 +155,7 @@
 
 :::
 
-### 1.2 Doing的常见句型
+### 1.2 Doing 的常见句型
 
 1. `It is/was no/not any/of little good + doing sth.`
 
@@ -122,9 +231,9 @@
 
 ::: tip Tip
 
-- 不定式作为主语或宾语时，前面可以带有疑问词，构成`what/who/when/where/how/whether/which + to do`结构，需要注意当疑问词为`why`时结构为`why do`
+-   不定式作为主语或宾语时，前面可以带有疑问词，构成`what/who/when/where/how/whether/which + to do`结构，需要注意当疑问词为`why`时结构为`why do`
 
-- 不定式可在意为“除了”的介词`but`或`other than`后作宾语，如果介词前有实义动词`do`的某种形式，则不定式需省略`to`。另外在`can't choose but`、`can't help but`、`can't but`之后也需要省略`to`
+-   不定式可在意为“除了”的介词`but`或`other than`后作宾语，如果介词前有实义动词`do`的某种形式，则不定式需省略`to`。另外在`can't choose but`、`can't help but`、`can't but`之后也需要省略`to`
 
 :::
 
@@ -158,7 +267,7 @@
 
     她为犯了这样的错误而道歉。
 
-7.  When it comes to **evaluating** homework, the professor will treat his students equally.
+7. When it comes to **evaluating** homework, the professor will treat his students equally.
 
     在评估家庭作业时,教授将会一视同仁地对待他的学生。
 
@@ -206,12 +315,64 @@
 
 当谓语动词使用`need/require/want`：
 
-- 当句子的主语是物，其后必须使用`doing`或`to be done`作为宾语，此时的`doing`是主动形式表被动含义，意为某物需要被……
-- 当句子的主语是人，其后必须先接表示人的名词或代词作为宾语，然后再接`to do`作为宾补，意为某人需要/要求/想要某人做……
+-   当句子的主语是物，其后必须使用`doing`或`to be done`作为宾语，此时的`doing`是主动形式表被动含义，意为某物需要被……
+-   当句子的主语是人，其后必须先接表示人的名词或代词作为宾语，然后再接`to do`作为宾补，意为某人需要/要求/想要某人做……
 
 :::
 
 ## III. 表语
+
+### 3.1 To Do
+
+`to do`形式做表语时，常用于表示具体的动作、将要做的事，主语通常是“目的、计划、需求、愿望、梦想、职责”等
+
+::: info Examples
+
+1. My **aim** is **to learn** English well in a short time.
+
+    我的目标是短时间内学好英语。
+
+2. Our **duty** is **to make** our country a better place.
+
+    我们的职责是让我们的国家变得更好。
+
+3. Her **plan** is **to travel** around the world.
+
+    她的计划是环游世界。
+
+:::
+
+### 3.2 Doing/Done
+
+`doing`形式做表语时，常用于表示抽象动作，主语通常是“工作、职业”等，且`doing/done`作表语时基本相当于形容词。一些与人的情绪相关的及物动词的`doing/done`作为形容词使用，`doing`一般表示“令人……的”，`done`一般表示“感到……的”，作表语时说明主语的特征、性质和感受等。
+
+<a-descriptions :column="2" title="常见词汇：">
+    <a-descriptions-item v-for="[en, cn] in data1" :label="en">{{ cn }}</a-descriptions-item>
+</a-descriptions>
+
+::: info Examples
+
+1. My job is **teaching** English.
+
+    我的工作是教英语。
+
+2. The lecture is **interesting**.
+
+    这个讲座很有趣。
+
+3. I am **interested** in the lecture.
+
+    我对这个讲座很感兴趣。
+
+4. They were **disappointed** all the result of the game.
+
+    他们对比赛的结果感到失望。
+
+5. The conclution of the book was **disappointing**.
+
+    这本书的结尾令人失望。
+
+:::
 
 ## IV. 宾补
 
