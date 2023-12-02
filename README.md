@@ -1,4 +1,4 @@
-# [Quick Start](https://kuzunohachitose.github.io/english-notes/)
+# Quick Start
 
 ## I. Installation
 
@@ -21,5 +21,5 @@ pnpm run notes:build
 ## IV. Run Server
 
 ```bash
-pnpm run serve
+pnpm run server
 ```
