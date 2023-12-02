@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "notes:dev": "vitepress dev notes",
-    "notes:build": "vitepress build notes && python ./script.py move",
-    "notes:preview": "vitepress preview notes",
-    "server": "python ./script.py server"
+    "dev": "vitepress dev notes",
+    "build": "vitepress build notes && python3 ./script.py move",
+    "preview": "vitepress preview notes",
+    "server": "python3 ./script.py server"
   },
   "devDependencies": {
     "markdown-it-footnote": "^3.0.3",

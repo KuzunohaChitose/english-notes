@@ -21,5 +21,5 @@ pnpm run notes:build
 ## IV. Run Server
 
 ```bash
-pnpm run serve
+pnpm run server
 ```
