@@ -5,27 +5,6 @@
 
 :::
 
-::: details Mermaid
-
-<Mmd>
-graph LR;
-A((虚拟语气)) --> B(虚拟条件句);
-B --> C[If引导的虚拟条件句];
-B --> D[Without/Otherwise/But for/Or引导的虚拟条件句];
-A --> E(虚拟从句);
-E --> F["动词(命令/要求/建议)接的宾语从句"];
-E --> G["名词(命令/要求/建议)接的主语、表语或同位语从句"];
-E --> H["It be 特定形容词/过去分词(命令/要求/建议) that + 从句"];
-A --> I(其他情况);
-I --> J[Wish ...];
-I --> K["It's (high/about) time that ..."];
-I --> L["As if/As though/If only ..."];
-I --> M["Would rather ..."];
-I --> N["情态动词 + have done"];
-</Mmd>
-
-:::
-
 # 虚拟语气
 
 > 动词有三大语气：陈述语气（Indicative Mood）、祈使语气（Imperative Mood）和虚拟语气（Subjunctive Mood），其他的还有疑问语气、条件语气、感叹语气等。

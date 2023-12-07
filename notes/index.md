@@ -19,19 +19,11 @@ hero:
           text: Play Music
           link: "javascript:void(0)"
           id: player
-# features:
-#     - title: Future A
-#       details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     - title: Feature B
-#       details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#     - title: Feature C
-#       details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
 <script setup>
 import VideoBackground from "../src/components/VideoBackground.vue";
 import { onMounted, onUnmounted } from "vue";
-
 const onClick = (event) => {
   event.preventDefault();
   const audio = document.querySelector("#msc");

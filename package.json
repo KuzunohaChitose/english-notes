@@ -1,9 +1,27 @@
 {
+  "name": "english-notes",
+  "repository": {
+    "url": "https://github.com/KuzunohaChitose/english-notes"
+  },
+  "author": {
+    "name": "KuzunohaChitose",
+    "email": "rluo9281@gmail.com",
+    "url": "https://github.com/KuzunohaChitose"
+  },
+  "description": "For learning English",
+  "homepage": "https://kuzunohachitose.github.io/english-notes/",
+  "version": "1.0.0",
+  "readme": "README.md",
+  "license": "MIT",
+  "keywords": [
+    "VitePress", "English"
+  ],
+  "packageManager": "bun@1.0.14",
   "scripts": {
     "dev": "vitepress dev notes",
-    "build": "vitepress build notes && python3 ./script.py move",
+    "build": "vitepress build notes && rm -rf docs && mv notes/.vitepress/dist docs",
     "preview": "vitepress preview notes",
-    "server": "python3 ./script.py server"
+    "server": "python ./server.py"
   },
   "devDependencies": {
     "markdown-it-footnote": "^3.0.3",

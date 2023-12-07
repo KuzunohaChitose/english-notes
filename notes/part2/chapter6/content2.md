@@ -106,6 +106,11 @@ const data1 = [
     ]
 ]
 </script>
+::: details Directory
+
+[[toc]]
+
+:::
 
 # 句法功能
 
@@ -375,6 +380,141 @@ const data1 = [
 :::
 
 ## IV. 宾补
+
+> 非谓语动词的三种形式均可用作宾补，其中`to do`形式可能出现省略`to`的情况。非谓语动词作宾补往往与感官动词、使役动词等动词的固定用法与搭配相关
+
+### 4.1 感官动词
+
+在`see`、`watch`、`notice`、`observe`、`hear`、`feel`等感官动词之后接的非谓语动词作宾补具有以下特点：
+
+|     Do     | Being Done |   Doing    |    Done    |
+| :--------: | :--------: | :--------: | :--------: |
+| 主动且完成 | 被动且进行 | 主动且进行 | 被动且完成 |
+
+::: info Examples
+
+1. I heard her **sing** an English song just now.
+
+    我刚才听见她唱了一首英文歌。
+
+2. I heard her **singing** an English song when I passed by her room yesterday.
+
+    昨天我经过她的房间的时候,我听见她正在唱英文歌。
+
+3. I heard the English song **being sung** by a little girl when I passed by her room yesterday.
+
+    昨天我经过一个小女孩的房间的时候，我听见她正在唱英文歌。
+
+4. I heard the English song **sung** many times.
+
+    我听见这首英文歌被唱了许多次了。
+
+5. I saw a girl **close** the window.
+
+      我看到一个女孩关了窗户。
+
+6. I saw a boy **playing** football on the ground when we passed by the playground.
+
+    当我们经过操场的时候,我看到一个男孩正在操场上踢足球。
+
+7. I saw him **being taken** away by the police.
+
+    我看到他正在被警察带走。
+
+8. I saw a boy **bitten** by a dog just now.
+
+    我刚才看到一个男孩被狗咬了。
+
+:::
+
+### 4.2 使役动词
+
+在`make`、`have`、`let`、`get`、`keep`、`leave`等使役动词之后接的非谓语动词作宾补具有以下常用句型：
+
+- `make/have/let + 宾语 + do`：让……做……（主动）
+- `make/have/let + 宾语 + done`：让……被做……（被动）
+- `get + 宾语 + to do`：让……做……（主动且将来）
+- `leave/keep + 宾语 +  doing`：让……一直做……（主动且进行）
+- `keep + 宾语 + done`：让……被做……（被动）
+- `catch + 宾语 + doing`：抓住……正在做……（主动且进行）
+
+::: info Examples
+
+1. My mother **makes** me **drink** milk everyday.
+
+    我妈妈让我每天喝牛奶。
+
+2. The boss **had** his secretary **wait** for an hour outside the door.
+
+    老板让他的秘书在门外等了一个小时。
+
+3. He raised nis voice to **make** himself **heard**.
+
+    他提高了声音以便让别人听见他的话。
+
+4. My boss asked me to **have** all these tasks **done** as soon as possible.
+
+    我的老板要求我尽快完成这些任务。
+
+5. You shouldn't **leave** the water **running** when you brush your teeth.
+
+    你刷牙的时候不应该让水一直流着。
+
+6. She still couldn't **make** herself **understood** in English.
+
+    她仍然不能用英语表达自己的意思。
+
+7. I'll **get** my bike **repaired** tomorrow.
+
+    明天我要修一下我的自行车。
+
+8. You should **keep** me **informed** of his final decision.
+
+    你应该让我知道他的最终决定。
+
+9. The teacher **caught** him **cheating** in the exam.
+
+    老师抓到他在考试中作弊。
+
+:::
+
+::: tip Tip
+
+当`see`、`hear`、`make`接`do`作宾补时，若句子为被动语态则改为`to do`
+
+:::
+
+### 4.3 其他动词
+
+在`warn`、`advise`、`allow`、`ask`、`encourage`、`expect`、`force`、`forbid`、`permit`、`invite`、`order`、`persuade`、`require`、`want`、`need`、`wish`等其他动词之后常接`to do`作宾补
+
+::: info Examples
+
+1. We don't allow students **to smoke**.
+
+    我们不允许学生吸烟。
+
+2. Our teacher asked us **to hand** in our homework.
+
+    老师要求我们交家庭作业。
+
+3. We persuaded him **to go** to school with us.
+
+    我们说服了他和我们一起去上学。
+
+4. I advised him **to go** home at once.
+
+    我建议他立刻回家。
+
+5. They have invited me **to go** to Paris with them.
+
+    他们邀请我和他们一起去巴黎。
+
+6. The teacher asked us **not to make** so much noise.
+
+7. 老师要求我们不要发出太多噪音。
+
+:::
 
 ## V. 定语
 

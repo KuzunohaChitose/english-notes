@@ -117,7 +117,7 @@ export default defineConfig({
     title: "English Notes",
     description: "Some English grammar knowledge...",
     markdown: {
-        lineNumbers: true,
+        lineNumbers: false,
         config: (it) => {
             it.use(mdItKatex);
             it.use(mdItFootnote);
@@ -153,7 +153,7 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                     {
-                        text: "QuickStart",
+                        text: "快速开始",
                         link: "/quick-start",
                     },
                 ],
@@ -164,20 +164,12 @@ export default defineConfig({
                 items: [
                     {
                         text: "名词和代词",
-                        items: [
-                            { text: "名词" },
-                            { text: "代词" },
-                            { text: "课后习题" },
-                        ],
+                        items: [{ text: "名词" }, { text: "代词" }],
                         collapsed: true,
                     },
                     {
                         text: "冠词和数词",
-                        items: [
-                            { text: "冠词" },
-                            { text: "数词" },
-                            { text: "课后习题" },
-                        ],
+                        items: [{ text: "冠词" }, { text: "数词" }],
                         collapsed: true,
                     },
                     {
@@ -187,7 +179,6 @@ export default defineConfig({
                             { text: "系动词" },
                             { text: "助动词" },
                             { text: "情态动词" },
-                            { text: "课后习题" },
                         ],
                         collapsed: true,
                     },
@@ -197,17 +188,12 @@ export default defineConfig({
                             { text: "形容词" },
                             { text: "副词" },
                             { text: "比较级和最高级" },
-                            { text: "课后习题" },
                         ],
                         collapsed: true,
                     },
                     {
                         text: "连词和介词",
-                        items: [
-                            { text: "连词" },
-                            { text: "介词" },
-                            { text: "课后习题" },
-                        ],
+                        items: [{ text: "连词" }, { text: "介词" }],
                         collapsed: true,
                     },
                 ],
@@ -223,7 +209,6 @@ export default defineConfig({
                             { text: "句子成分" },
                             { text: "简单句的五种基本句型" },
                             { text: "句子类型" },
-                            { text: "课后习题" },
                         ],
                     },
                     {
@@ -234,7 +219,6 @@ export default defineConfig({
                             { text: "进行时态" },
                             { text: "完成时态" },
                             { text: "完成进行时态" },
-                            { text: "课后习题" },
                         ],
                     },
                     {
@@ -245,7 +229,6 @@ export default defineConfig({
                             { text: "被动语态的转换" },
                             { text: "被动语态的用法" },
                             { text: "被动语态的注意事项" },
-                            { text: "课后习题" },
                         ],
                     },
                     {
@@ -255,7 +238,6 @@ export default defineConfig({
                             { text: "语法一致原则" },
                             { text: "意义一致原则" },
                             { text: "就近一致原则" },
-                            { text: "课后习题" },
                         ],
                     },
                     {
@@ -265,7 +247,6 @@ export default defineConfig({
                             { text: "名词性从句" },
                             { text: "定语从句" },
                             { text: "状语从句" },
-                            { text: "课后习题" },
                         ],
                     },
                     {
@@ -283,11 +264,6 @@ export default defineConfig({
                             {
                                 text: "句法功能",
                                 link: "/part2/chapter6/content2",
-                            },
-
-                            {
-                                text: "课后习题",
-                                link: "/part2/chapter6/content3",
                             },
                             {
                                 text: "固定搭配",
@@ -311,7 +287,6 @@ export default defineConfig({
                                 text: "倒装句",
                                 link: "/part2/chapter7/content3",
                             },
-                            { text: "课后习题" },
                         ],
                     },
                     {
@@ -321,7 +296,6 @@ export default defineConfig({
                             { text: "割裂" },
                             { text: "插入语" },
                             { text: "否定" },
-                            { text: "课后习题" },
                         ],
                     },
                 ],
