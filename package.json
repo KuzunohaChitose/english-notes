@@ -21,7 +21,7 @@
     "dev": "vitepress dev notes",
     "build": "vitepress build notes && rm -rf docs && mv notes/.vitepress/dist docs",
     "preview": "vitepress preview notes",
-    "server": "python ./server.py"
+    "server": "python ./server.py || python3 ./server.py"
   },
   "devDependencies": {
     "markdown-it-footnote": "^3.0.3",
