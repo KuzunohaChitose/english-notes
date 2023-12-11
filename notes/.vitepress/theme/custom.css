@@ -33,50 +33,13 @@ samp {
     font-family: "JbMn" !important;
 }
 
-.asumi {
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 12%;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    animation-name: Asumi;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
+.desc_no-border td {
+    border: none;
+}
+.desc_no-border tr {
+    border: none;
 }
 
-@keyframes Asumi {
-    0% {
-        background-image: url("/resources/asumi/1.png");
-    }
-    17.5% {
-        background-image: url("/resources/asumi/1.png");
-    }
-    20% {
-        background-image: url("/resources/asumi/2.png");
-    }
-    37.5% {
-        background-image: url("/resources/asumi/2.png");
-    }
-    40% {
-        background-image: url("/resources/asumi/3.png");
-    }
-    57.5% {
-        background-image: url("/resources/asumi/3.png");
-    }
-    60% {
-        background-image: url("/resources/asumi/4.png");
-    }
-    77.5% {
-        background-image: url("/resources/asumi/4.png");
-    }
-    80% {
-        background-image: url("/resources/asumi/5.png");
-    }
-    97.5% {
-        background-image: url("/resources/asumi/5.png");
-    }
-    100% {
-        background-image: url("/resources/asumi/1.png");
-    }
+.desc_no-background .ant-descriptions-row {
+    background-color: rgba(0, 0, 0, 0) !important;
 }

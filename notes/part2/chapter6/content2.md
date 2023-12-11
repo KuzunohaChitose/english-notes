@@ -106,6 +106,7 @@ const data1 = [
     ]
 ]
 </script>
+
 ::: details Directory
 
 [[toc]]
@@ -204,7 +205,7 @@ const data1 = [
 
 ### 2.1 Only Todo
 
-一些谓语动词或词组只能用不定式作为宾语，详见[固定搭配](/part2/chapter6/extra)。
+一些谓语动词或词组只能用不定式作为宾语，详见[固定搭配](/part2/chapter6/content3)。
 
 ::: info Examples
 
@@ -244,7 +245,7 @@ const data1 = [
 
 ### 2.2 Only Doing
 
-一些谓语动词或词组只能用动名词作为宾语，详见[固定搭配](/part2/chapter6/extra)。
+一些谓语动词或词组只能用动名词作为宾语，详见[固定搭配](/part2/chapter6/content3)。
 
 ::: info Example
 
@@ -286,7 +287,7 @@ const data1 = [
 
 ### 2.3 Todo & Doing
 
-一些谓语动词或词组可以用不定式或动名词作为宾语，并表达不同含义，详见[固定搭配](/part2/chapter6/extra)。
+一些谓语动词或词组可以用不定式或动名词作为宾语，并表达不同含义，详见[固定搭配](/part2/chapter6/content3)。
 
 ::: info Examples
 
@@ -517,6 +518,138 @@ const data1 = [
 :::
 
 ## V. 定语
+
+### 5.1 To Do
+
+`to do`形式可作定语修饰名词或代词，且`to do`必须位于被修饰的对象之后作后置定语使用，`to do`与被修饰对象存在逻辑上的主谓、动宾、同位、动状等关系
+
+- **被修饰对象被特定词汇限定**：序数词、形容词最高级、`the only, the very, the next, the last`
+
+    ::: info Examples
+
+    1. This is the best way **to work** out the problem.
+
+        这是解决问题的最好方式。
+
+    2. She was the first woman **to win** the gold medal in the Olympic Games.
+
+        她是第一位在奥运会上获得金牌的女性。
+
+    3. He is the only person **to think** of the idea.
+
+        他是唯一一个想到这个主意的人。
+
+    4. The next thing **to do** is to relax yourself completely.
+
+        下一步要做的事情是完全放松你自己。
+
+    :::
+
+- **抽象名词**：`ability, promise, way, reason, time, plan， order, intention, need, necessity, courage, change, opportunity, decision, right, wish, ...`
+
+    ::: info Examples
+
+    1. I have a chance **to go** sightseeing.
+
+        我有一个观光旅行的机会。
+
+    2. They have made a plan **to learn** from Lei Feng.
+
+        他们制定了一个向雷锋学习的计划。
+
+    3. The army got an order **to leave** the city.
+
+        军队接到了离开这座城市的命令。
+
+    :::
+
+- **不定代词**：`something, nothing, little, much, a lot, ...`
+
+    ::: info Examples
+
+    1. I have something **to tell** you.
+
+        我有事要告诉你。
+
+    2. Do you have anything **to say**?
+
+        你有什么要说的吗？
+
+    3. I have a lot **to do**.
+
+        我有许多事去做。
+
+    :::
+
+::: tip Tip
+
+1. 如果`to do`中的动词为不及物动词则可添加适当介词
+2. 如果`to do`的动作不是由主语发出则可改为被动`to be done`
+
+:::
+
+### 5.2 Doing/Done
+
+- **作前置定语**
+
+    `doing`表示主动、进行；`done`表示被动、完成
+
+    ::: info Examples
+
+    1. The **sleeping** baby is so cute.
+
+        这个正在睡觉的宝贝是如此可爱。
+
+    2. The **broken** vase is very expensive.
+
+        这个破碎的花瓶非常珍贵。
+
+    3. She **gathered** fallen flowers and buried them.
+
+        她收集了落花并将其埋葬。
+
+    :::
+
+    ::: tip Tip
+
+    一些动词的`doing`和`done`皆可作前置定语，已基本形容词化，`doing`意为“正在……的”，`done`意为“已经……的”，例如：
+
+    <a-descriptions :column="2" :labelStyle="{fontFamily: 'JbMn'}" class="desc_no-background desc_no-border">
+        <a-descriptions-item :contentStyle="{ background: 'rgba(0,0,0,0)' }" label="falling leaves">正在下落的树叶</a-descriptions-item>
+        <a-descriptions-item label="fallen leaves">已经落下的树叶</a-descriptions-item>
+        <a-descriptions-item label="changing world">正在变化的世界</a-descriptions-item>
+        <a-descriptions-item label="changed world">已经改变的世界</a-descriptions-item>
+        <a-descriptions-item label="boiling water">正在沸腾的水</a-descriptions-item>
+        <a-descriptions-item label="boiled water">已经煮沸的水</a-descriptions-item>
+        <a-descriptions-item label="developing country">发展中国家</a-descriptions-item>
+        <a-descriptions-item label="developed country">发达国家</a-descriptions-item>
+    </a-descriptions>
+
+    :::
+
+- **作后置定语**
+
+    `doing`表示主动、进行；`being done`表示被动、进行；`done`表示被动、完成
+
+    ::: info Examples
+
+    1. The young man **sitting behind me** is our monitor.
+
+        这个正坐在我身后的年轻人是我们的班长。
+
+    2. The houses **being built now** are for the teachers.
+
+        现在正在造的房子是给教师们的。
+
+    3. The novel **written by Dickens** is very popular.
+
+        狄更斯所写的这本小说非常流行。
+
+    4. The meeting **held in our school yesterday** is very important for all students.
+
+        昨天在我们学校举报的这场会议对学生们而言
+
+    :::
 
 ## VI. 状语
 

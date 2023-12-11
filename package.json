@@ -16,7 +16,7 @@
   "keywords": [
     "VitePress", "English"
   ],
-  "packageManager": "bun@1.0.14",
+  "packageManager": "bun@1.0.15",
   "scripts": {
     "dev": "vitepress dev notes",
     "build": "vitepress build notes && rm -rf docs && mv notes/.vitepress/dist docs",

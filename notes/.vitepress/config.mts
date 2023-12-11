@@ -255,7 +255,7 @@ export default defineConfig({
                         items: [
                             {
                                 text: "简介",
-                                link: "/part2/chapter6/introduction",
+                                link: "/part2/chapter6/content0",
                             },
                             {
                                 text: "构成形式",
@@ -267,7 +267,7 @@ export default defineConfig({
                             },
                             {
                                 text: "固定搭配",
-                                link: "/part2/chapter6/extra",
+                                link: "/part2/chapter6/content3",
                             },
                         ],
                     },
