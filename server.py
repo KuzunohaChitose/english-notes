@@ -7,7 +7,11 @@ def index():
     return redirect("/english-notes", code=302)
 
 @app.route("/english-notes")
-def home():
+def home1():
+    return send_from_directory(directory="docs", path="index.html")
+
+@app.route("/english-notes/")
+def home2():
     return send_from_directory(directory="docs", path="index.html")
 
 

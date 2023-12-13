@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import DefaultTheme from "vitepress/theme";
 import { useData } from "vitepress";
-import { CSSProperties, computed, ref, watch } from "vue";
+import { computed, watch } from "vue";
 import { useAsumiIndex, useScreenSize } from "./hooks";
 
 const { page } = useData();
@@ -16,6 +16,17 @@ const show = computed(
         size.width / size.height >= 0.5 &&
         size.width / size.height <= 2
 );
+
+watch(page, (newVal, oldVal) => {
+    if (newVal.filePath === "index.md" && oldVal?.filePath !== "index.md") {
+        (<HTMLElement>document.lastChild).classList.add("dark");
+        document.body.style.overflow = "hidden";
+    }
+    if (newVal.filePath !== "index.md" && oldVal?.filePath === "index.md") {
+        (<HTMLElement>document.lastChild).classList.remove("dark");
+        document.body.style.overflow = "auto";
+    }
+}, { immediate: true });
 </script>
 
 <template>
