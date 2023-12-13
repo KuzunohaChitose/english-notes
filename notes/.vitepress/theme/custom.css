@@ -26,6 +26,15 @@
     font-weight: bold;
 }
 
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+        120deg,
+        #bd34fe,
+        #41d1ff
+    );
+}
+
 pre,
 code,
 kbd,
@@ -42,4 +51,8 @@ samp {
 
 .desc_no-background .ant-descriptions-row {
     background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.ant-descriptions {
+    color: var(--vp-custom-block-info-text) !important;
 }

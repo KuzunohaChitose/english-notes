@@ -4,13 +4,14 @@ layout: home
 
 hero:
     name: "English Notes"
-    text: "Some English grammar knowledge..."
-    image:
-        src: /resources/logo.png
-        alt: Chitose
-        style:
-            box-shadow: "#3891ab 0 0 20px 5px"
-            border-radius: 50%
+    text: "一些英语语法知识"
+    tagline: "记录学习英语语法的过程"
+    # image:
+    #     src: /resources/logo.png
+    #     alt: Chitose
+    #     style:
+    #         box-shadow: "#3891ab 0 0 20px 5px"
+    #         border-radius: 50%
     actions:
         - theme: brand
           text: Getting Start
@@ -37,6 +38,7 @@ onMounted(() => {
   document.querySelector("header").style.visibility = "hidden";
   document.body.style.overflow = "hidden";
   document.lastChild.className = "dark";
+  document.querySelector(".text").style.color = "#5b83a8";
 });
 onUnmounted(() => {
   document.querySelector("header").style.visibility = "visible";
@@ -45,5 +47,5 @@ onUnmounted(() => {
 });
 </script>
 
-<VideoBackground path="/english-notes/resources/bg3.mp4" />
+<VideoBackground path="/english-notes/resources/chise.mp4" />
 <audio src="/english-notes/resources/1.ogg" loop id="msc" />

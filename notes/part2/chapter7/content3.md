@@ -86,7 +86,9 @@
 
 对于表示否定或半否定意义的词或词组，若其位于句首，则谓语动词需部分倒装
 
-<a-descriptions title="例词：">
+**例词**：
+
+<a-descriptions :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item style="font-family: JbMn;" v-for="item in `no,not,never,seldom,little,hardly,scarcely,at no time,by no means,on no account,in no case,under no circumstances,in no way,not until`.split(`,`)">{{ item }}</a-descriptions-item>
 </a-descriptions>
 
@@ -120,7 +122,9 @@
 
 以否定连词开头的句子，前面的分句部分倒装，后面的分句不倒装，即**前倒后不倒**
 
-<a-descriptions title="例词：">
+**例词**：
+
+<a-descriptions :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item style="font-family: JbMn;" v-for="item in `not only... but also,hardly/scarcely... when,no sooner... than`.split(`,`)">{{ item }}</a-descriptions-item>
 </a-descriptions>
 

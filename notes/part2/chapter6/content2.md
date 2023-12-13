@@ -1,107 +1,107 @@
 <script setup>
 const data1 = [
     [
-        "amazing",
+        "Amazing",
         "令人惊叹的"
     ],
     [
-        "amazed",
+        "Amazed",
         "感到惊叹的"
     ],
     [
-        "boring",
+        "Boring",
         "令人厌烦的"
     ],
     [
-        "bored",
+        "Bored",
         "感到厌烦的"
     ],
     [
-        "confusing",
+        "Confusing",
         "令人困惑的"
     ],
     [
-        "confused",
+        "Confused",
         "感到困惑的"
     ],
     [
-        "convincing",
+        "Convincing",
         "令人信服的"
     ],
     [
-        "convinced",
+        "Convinced",
         "感到信服的"
     ],
     [
-        "disappointing",
+        "Disappointing",
         "令人失望的"
     ],
     [
-        "disappointed",
+        "Disappointed",
         "感到失望的"
     ],
     [
-        "embarrassing",
+        "Embarrassing",
         "令人尴尬的"
     ],
     [
-        "embarrassed",
+        "Embarrassed",
         "感到尴尬的"
     ],
     [
-        "encouraging",
+        "Encouraging",
         "令人鼓舞的"
     ],
     [
-        "encouraged",
+        "Encouraged",
         "感到鼓舞的"
     ],
     [
-        "exciting",
+        "Exciting",
         "令人兴奋的"
     ],
     [
-        "excited",
+        "Excited",
         "感到兴奋的"
     ],
     [
-        "frustrating",
+        "Frustrating",
         "令人沮丧的"
     ],
     [
-        "frustrated",
+        "Frustrated",
         "感到沮丧的"
     ],
     [
-        "interesting",
+        "Interesting",
         "有趣的"
     ],
     [
-        "interested",
+        "Interested",
         "感兴趣的"
     ],
     [
-        "satisfying",
+        "Satisfying",
         "令人满意的"
     ],
     [
-        "satisfied",
+        "Satisfied",
         "感到满意的"
     ],
     [
-        "shocking",
+        "Shocking",
         "令人震惊的"
     ],
     [
-        "shocked",
+        "Shocked",
         "感到震惊的"
     ],
     [
-        "surprising",
+        "Surprising",
         "令人惊讶的"
     ],
     [
-        "surprised",
+        "Surprised",
         "感到惊讶的"
     ]
 ]
@@ -119,7 +119,7 @@ const data1 = [
 
 > **不定式**和**动名词**的用法类似于名词，可以作为主语。不定式倾向于表示一次性的具体动作、动名词倾向于表示经常性的动作。为了避免头重脚轻，非谓语动词作主语时经常使用形式主语`it`从而将真主语后置。
 
-### 1.1 To do 的常见句型
+### 1.1 To Do
 
 1. `It + be + adj./n. + ([for/of] sb.) +  to do sth.`
 
@@ -161,7 +161,7 @@ const data1 = [
 
 :::
 
-### 1.2 Doing 的常见句型
+### 1.2 Doing
 
 1. `It is/was no/not any/of little good + doing sth.`
 
@@ -203,7 +203,7 @@ const data1 = [
 
 > **不定式**和**动名词**的用法类似于名词，可以作为宾语。
 
-### 2.1 Only Todo
+### 2.1 To Do
 
 一些谓语动词或词组只能用不定式作为宾语，详见[固定搭配](/part2/chapter6/content3)。
 
@@ -243,7 +243,7 @@ const data1 = [
 
 :::
 
-### 2.2 Only Doing
+### 2.2 Doing
 
 一些谓语动词或词组只能用动名词作为宾语，详见[固定搭配](/part2/chapter6/content3)。
 
@@ -285,7 +285,7 @@ const data1 = [
 
 :::
 
-### 2.3 Todo & Doing
+### 2.3 Doing/To Do
 
 一些谓语动词或词组可以用不定式或动名词作为宾语，并表达不同含义，详见[固定搭配](/part2/chapter6/content3)。
 
@@ -352,7 +352,9 @@ const data1 = [
 
 `doing`形式做表语时，常用于表示抽象动作，主语通常是“工作、职业”等，且`doing/done`作表语时基本相当于形容词。一些与人的情绪相关的及物动词的`doing/done`作为形容词使用，`doing`一般表示“令人……的”，`done`一般表示“感到……的”，作表语时说明主语的特征、性质和感受等。
 
-<a-descriptions :column="2" title="常见词汇：">
+**常见词汇**：
+
+<a-descriptions :column="2" :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item v-for="[en, cn] in data1" :label="en">{{ cn }}</a-descriptions-item>
 </a-descriptions>
 
@@ -614,15 +616,15 @@ const data1 = [
 
     一些动词的`doing`和`done`皆可作前置定语，已基本形容词化，`doing`意为“正在……的”，`done`意为“已经……的”，例如：
 
-    <a-descriptions :column="2" :labelStyle="{fontFamily: 'JbMn'}" class="desc_no-background desc_no-border">
-        <a-descriptions-item :contentStyle="{ background: 'rgba(0,0,0,0)' }" label="falling leaves">正在下落的树叶</a-descriptions-item>
-        <a-descriptions-item label="fallen leaves">已经落下的树叶</a-descriptions-item>
-        <a-descriptions-item label="changing world">正在变化的世界</a-descriptions-item>
-        <a-descriptions-item label="changed world">已经改变的世界</a-descriptions-item>
-        <a-descriptions-item label="boiling water">正在沸腾的水</a-descriptions-item>
-        <a-descriptions-item label="boiled water">已经煮沸的水</a-descriptions-item>
-        <a-descriptions-item label="developing country">发展中国家</a-descriptions-item>
-        <a-descriptions-item label="developed country">发达国家</a-descriptions-item>
+    <a-descriptions :column="2" :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }" class="desc_no-background desc_no-border">
+        <a-descriptions-item label="Falling leaves">正在下落的树叶</a-descriptions-item>
+        <a-descriptions-item label="Fallen leaves">已经落下的树叶</a-descriptions-item>
+        <a-descriptions-item label="Changing world">正在变化的世界</a-descriptions-item>
+        <a-descriptions-item label="Changed world">已经改变的世界</a-descriptions-item>
+        <a-descriptions-item label="Boiling water">正在沸腾的水</a-descriptions-item>
+        <a-descriptions-item label="Boiled water">已经煮沸的水</a-descriptions-item>
+        <a-descriptions-item label="Developing country">发展中国家</a-descriptions-item>
+        <a-descriptions-item label="Developed country">发达国家</a-descriptions-item>
     </a-descriptions>
 
     :::
@@ -653,4 +655,260 @@ const data1 = [
 
 ## VI. 状语
 
+### 6.1 To Do
+
+当`to do`作状语时，其可以表示**目的**、**结果**或**原因**，且其之前不可带从属连词。
+
+|   To Do    | To Be Done |
+| :--------: | :--------: |
+| 主动、将来 | 被动、将来 |
+
+- **表示目的**
+
+    ::: info Examples
+
+    1. **To see** the whole city, I climbed to the top of the mountain.
+
+        为了看到整个城市，我爬上了山顶。
+
+    2. He opened the window **to get** some fresh air.
+
+        他打开窗户去呼吸一些新鲜空气。
+
+    :::
+
+    ::: tip Tip
+
+    1. `to do`作状语时逻辑主语一般与句子主语一致，若不一致则需于`to do`之前用`for`接逻辑主语
+    2. 表示目的也可以使用`in order to`、`so as to do`，意为“以便，为了……”（`so as to do`不用于句首）
+
+    :::
+
+- **表示结果**：一般用于表示出乎意料、令人失望的结果，在其之前常用`only`、`just`
+
+    ::: info Examples
+
+    1. He hurried home **only to find** that his father was dead.
+
+        他匆忙回到家，却发现他的父亲已经去世。
+
+    2. They got to the station **only to be told** that the train had left.
+
+        他们到了车站，却被告知火车已经离去。
+
+    3. He returned home after the war, **just to be informed** his wife had left.
+
+        战争结束后他回到家，却被告知他的妻子已经离开。
+
+    :::
+
+    ::: tip Tip
+
+    也可以使用`so...as to do`、`such...as to do`、`too...to do`、`enough...to do`等结构表示结果
+
+    :::
+
+- **表示原因**
+
+    ::: info Examples
+
+    1. I'm delighted **to know** that you have a job.
+
+        知道你有工作了，我很开心。
+
+    2. We regret **to tell you** that we won't be able to attend the ceremoney.
+
+        我们很遗憾地告诉你，我们不能参加典礼了。
+
+    :::
+
+    ::: tip
+
+    表示原因时，`to do`通常与表示喜怒哀乐、运气好坏的形容词或动词连用
+
+    :::
+
+### 6.2 Doing/Done
+
+`doing`或`done`形式作状语时，可以表示**时间**、**条件**、**结果**、**原因**、**让步**和**伴随**，分为带与不带从属连词两种情况
+
+|   Doing    | Having Doing |         Done         | Having Been Done |
+| :--------: | :----------: | :------------------: | :--------------: |
+| 主动、进行 |  主动、完成  | 被动、完成（或进行） |    被动、完成    |
+
+- **表示时间**
+
+    ::: info Examples
+
+    1. **When heated by the sun**, the ice began to melt.
+
+        被太阳照耀时，冰开始融化。
+
+    2. **Hearing the news**, they got very excited.
+
+        听到这个消息，他们很兴奋。
+
+    3. **Seen from the top of the Mount Tai**, the building is small.
+
+        从泰山顶看过去，这座建筑很小。
+
+    :::
+
+- **表示条件**
+
+    ::: info Examples
+
+    1. **Keeping on learning English**, you will eventually make progress.
+
+        （如果）坚持学习英语，你最终会取得进步。
+
+    2. **Grown in rich soil**, these seeds can grow faster.
+
+        （如果）种在肥沃的土壤里，这些种子能长得更快。
+
+    3. **If asked to speak**, he has no problem expressing himself.
+
+        如果要求他发言，他能毫不费力表达自己的意思。
+
+    :::
+
+- **表示结果**
+
+    ::: info Examples
+
+    1. The cup dropped to the ground, **breaking into pieces**.
+
+        杯子掉到地上，摔成了碎片。
+
+    2. It rained heavily, **causing serious flooding in that area**.
+
+        雨下得很大，在那个地区造成了严重的洪水。
+
+    :::
+
+    ::: tip Tip
+
+    表示结果时，仅用`doing`形式！
+
+    :::
+
+- **表示原因**
+
+    ::: info Examples
+
+    1. **Living far from the school**, I have to get up early every morning.
+
+        由于住得离学校很远，我不得不天天早起。
+
+    2. **Having finished their homework**, the kids wanted to hang out.
+
+        已经做完了作业，孩子们想出去玩。
+
+    :::
+
+- **表示让步**
+
+    ::: info Examples
+
+    1. **Though understanding no Italian**, Charlie was able to communicate with them.
+
+        虽然查理不懂意大利语，但他能和他们交流。
+
+    2. **Having been told many times**, he still repeated the same mistake.
+
+        虽然已经被告知多次，他仍然重复同样的错误。
+
+    :::
+
+- **表示伴随**
+
+    ::: info Examples
+
+    1. The old man was fast asleep, holding a book in his hand.
+
+        老者手持一书，睡得很熟。
+
+    2. The teacher came into the lab, followed by some students.
+
+        老师走进实验室，后面跟着些学生。
+
+    :::
+
+::: tip Tip
+
+有些`to do`形式和`doing`形式的固定结构也可作状语，称其为独立成分，常见如下：
+
+<a-descriptions :column="2" :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }" class="desc_no-background desc_no-border">
+    <a-descriptions-item label="Generally speaking">一般来说</a-descriptions-item>
+    <a-descriptions-item label="Frankly speaking">坦白地说</a-descriptions-item>
+    <a-descriptions-item label="Judging from">根据……来判断</a-descriptions-item>
+    <a-descriptions-item label="To be frank">坦白地说</a-descriptions-item>
+    <a-descriptions-item label="To tell you the truth">说实话</a-descriptions-item>
+    <a-descriptions-item label="To be honest">说实话</a-descriptions-item>
+</a-descriptions>
+
+:::
+
 ## VII. 独立主格
+
+> **名词/代词 + 非谓语动词**构成的结构为非谓语动词的独立主格，通常作为状语修饰整个句子，常位于句首与句尾，使用逗号与其他成分隔开。在此结构中非谓之前的名词或代词即为其逻辑主语
+
+### 7.1 常见形式
+
+- **逻辑主语 + To Do**：为主动语态，且往往用于表示未发生的动作或状态，常作原因、条件状语
+
+    ::: info Examples
+
+    1. No one **to wake me up**, I might be late for the first class.
+
+        如果没人叫醒我，我第一节课可能会迟到。
+
+    :::
+
+- **逻辑主语 + Doing/Having Done**：为主动语态，且`having done`倾向于强调非谓在谓之前发生，常作时间、原因、条件、伴随等状语
+
+    ::: info Examples
+
+    1. All the students **having sat down**, the lecture began.
+
+        所有的学生坐下之后，讲座便开始了。
+
+    2. Time **permitting**, we will answer your questions after the discussion.
+
+        如果时间允许的话，讨论之后我们会回答你的问题。
+
+    :::
+
+- **逻辑主语 + Done**：为被动语态，常作时间、方式、伴随、原因、条件等状语
+
+    ::: info Examples
+
+    1. The problems **solved**, the quality has been improved.
+
+        问题解决了，质量提高了。
+
+    :::
+
+### 7.2 With复合结构
+
+即在独立主格的结构之前加上`with`，构成`with + 名词/代词 + to do/doing/done`结构，常作伴随、方式、原因、条件等状语
+
+::: info Examples
+
+1. **With so much work to do**, I can't spare a minute.
+
+    有这么多工作要做，我一分钟也挤不出来。
+
+2. **With so many children talking and laughing**, I couldn't settled down to my work.
+
+    这么多孩子又说又笑，我无法静下心来工作。
+
+3. The murder was brought in, **with his hands tied**.
+
+    凶手被带了进来，手被绑着。
+
+4. **With more time given**, I will visit you.
+
+    再给我点时间，我会去看你的。
+
+:::

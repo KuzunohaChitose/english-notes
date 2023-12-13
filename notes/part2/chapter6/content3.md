@@ -150,6 +150,7 @@ const dataSource = [
     ],
 ];
 </script>
+
 ::: details
 
 [[toc]]
@@ -160,42 +161,42 @@ const dataSource = [
 
 ## I. `v. + to do`
 
-<a-descriptions>
+<a-descriptions :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item v-for="item in dataSource[0]">{{ item[0] }}<br>{{ item[1] }}</a-descriptions-item>
 </a-descriptions>
 
 ## II. `v. + sb. + to do`
 
-<a-descriptions>
+<a-descriptions :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item v-for="item in dataSource[1]">{{ item[0] }}<br>{{ item[1] }}</a-descriptions-item>
 </a-descriptions>
 
 ## III. `v. + doing`
 
-<a-descriptions>
+<a-descriptions :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item v-for="item in dataSource[2]">{{ item[0] }}<br>{{ item[1] }}</a-descriptions-item>
 </a-descriptions>
 
 ## IV. `v. to + doing`
 
-<a-descriptions>
+<a-descriptions :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item v-for="item in dataSource[3]">{{ item[0] }}<br>{{ item[1] }}</a-descriptions-item>
 </a-descriptions>
 
 ## V. `v. + sb. + into doing`
 
-<a-descriptions>
+<a-descriptions :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item v-for="item in dataSource[4]">{{ item[0] }}<br>{{ item[1] }}</a-descriptions-item>
 </a-descriptions>
 
 ## VI. `v. + sb. + for doing`
 
-<a-descriptions>
+<a-descriptions :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item v-for="item in dataSource[5]">{{ item[0] }}<br>{{ item[1] }}</a-descriptions-item>
 </a-descriptions>
 
 ## VII. `to do & doing`
 
-<a-descriptions :column="2">
+<a-descriptions :column="2" :labelStyle="{ color: 'var(--vp-custom-block-info-text)' }"  :contentStyle="{ color: 'var(--vp-custom-block-info-text)' }">
     <a-descriptions-item v-for="item in dataSource[6]">{{ item[0] }}<br>{{ item[1] }}</a-descriptions-item>
 </a-descriptions>
