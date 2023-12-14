@@ -20,7 +20,7 @@ import VideoBackground from "../src/components/VideoBackground.vue";
 import { onMounted } from "vue";
 
 onMounted(() => {
-  document.querySelectorAll("a.VPButton")[1].addEventListener("click", function(event) {
+  document.querySelectorAll("a.VPButton")[1].addEventListener("click", (event) => {
     event.preventDefault();
     const audio = document.querySelector("#msc");
     if (audio.paused) audio.play();

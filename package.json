@@ -16,12 +16,12 @@
   "keywords": [
     "VitePress", "English"
   ],
-  "packageManager": "bun@1.0.15",
+  "packageManager": "pnpm@8.12.1",
   "scripts": {
     "dev": "vitepress dev notes",
-    "build": "vitepress build notes && rm -rf docs && mv notes/.vitepress/dist docs",
+    "build": "vitepress build notes && python script.py move",
     "preview": "vitepress preview notes",
-    "server": "python ./server.py || python3 ./server.py"
+    "server": "python ./script.py server"
   },
   "devDependencies": {
     "markdown-it-footnote": "^3.0.3",

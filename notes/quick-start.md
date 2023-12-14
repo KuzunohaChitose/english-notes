@@ -3,23 +3,23 @@
 ## I. Installation
 
 ```bash
-bun install
+pnpm install
 ```
 
 ## II. Run Dev
 
 ```bash
-bun run dev
+pnpm run dev
 ```
 
 ## III. Run Build
 
 ```bash
-bun run build
+pnpm run build
 ```
 
 ## IV. Run Server
 
 ```bash
-bun run server
+pnpm run server
 ```
