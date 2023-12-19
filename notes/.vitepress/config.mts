@@ -164,7 +164,16 @@ export default defineConfig({
                 items: [
                     {
                         text: "名词和代词",
-                        items: [{ text: "名词" }, { text: "代词" }],
+                        items: [
+                            {
+                                text: "名词",
+                                link: "/part1/chapter1/content1",
+                            },
+                            {
+                                text: "代词",
+                                link: "/part1/chapter1/content2",
+                            },
+                        ],
                         collapsed: true,
                     },
                     {
